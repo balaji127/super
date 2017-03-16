@@ -16,4 +16,5 @@ public static void main(String args[]){
 A d=new A();  
 d.work();  
 d.test1();
-}}  
+}}  
+This is the way i want to show the output.I think answer is super.test
