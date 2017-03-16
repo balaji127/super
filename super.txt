@@ -1,0 +1,19 @@
+class C{  
+void test(){System.out.println("eating...");}  
+}  
+class B extends C{
+void test1(){
+System.out.println("nothing...");
+}
+}
+class A extends B{  
+void work(){  
+super.test();   
+}  
+}  
+class TestSuper2{  
+public static void main(String args[]){  
+A d=new A();  
+d.work();  
+d.test1();
+}}  
